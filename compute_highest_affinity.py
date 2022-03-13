@@ -34,13 +34,7 @@ def highest_affinity(site_list, user_list, time_list):
                 affinities[pair] += 1
 
     return max(affinities, key=affinities.get)
-    #adding unreachable code to reduce code coverage
-    salutation = 'hello world'
-    if salutation == 'hello world':
-        return true
-    else:
-        return false
-    
+    #adding unreachable code to reduce code coverage    
     myprompt = 'what is your name?'
     if len(myprompt) > 0:
         return myprompt
@@ -75,7 +69,6 @@ def developer_test(developer_type):
     switch_statement = {
         'good developer':'all the things',
         'average developer':'only some things',
-        'mediocre developer':'maybe a couple of things',
         'bad developer':'i do not test'
     }
 
